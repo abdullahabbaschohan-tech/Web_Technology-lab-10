@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruby's Store</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .banner {
+      background-image: url('https://static.vecteezy.com/system/resources/thumbnails/037/236/239/small/ai-generated-fashion-store-advertisment-background-with-copy-space-free-photo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .banner h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .banner p {
+      font-size: 1.5rem;
+    }
+
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Ruby's Store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+  <div class="container banner">
+    <div>
+      <h1>Welcome to Ruby's Store</h1>
+      <p>Your one-stop shop for amazing products!</p>
+      <a href="#shop" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+
+ 
+  <div class="container my-5" id="shop">
+    <h2 class="text-center mb-4">Our Popular Products</h2>
+    <div class="row">
+    
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://t4.ftcdn.net/jpg/02/74/65/53/360_F_274655374_WWPOy7i7C2cP8at33jFZxHBiN0G6MHbi.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Product 1</h5>
+            <p class="card-text">This is a great product for your needs. Don't miss out!</p>
+            <p><strong>$25.00</strong></p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://cdn.dribbble.com/userupload/38341720/file/still-c57ee307f6323c8dfeadd562542f7c1c.png?resize=400x0" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Product 2</h5>
+            <p class="card-text">This product is a must-have for everyone! Grab yours now.</p>
+            <p><strong>$35.00</strong></p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS96Yhwn1GbhJYV4I6aGWt5ae-KHEstUAxL3w&s" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Product 3</h5>
+            <p class="card-text">High quality and affordable. A best-seller at Ruby's Store.</p>
+            <p><strong>$40.00</strong></p>
+            <a href="#" class="btn btn-success">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Your Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Your Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  
+  <footer class="bg-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2026 Ruby's Store | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
